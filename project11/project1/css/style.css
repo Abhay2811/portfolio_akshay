@@ -1,0 +1,442 @@
+/*First Section */
+.main-div {
+  background-image: url("../images/bg-with-hand.png");
+  height: 1165px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 36px;
+}
+
+.main-menu-items {
+  display: flex;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Sporting Grotesque";
+}
+.main-menu-items li {
+  margin-right: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  transition: 0.5s;
+}
+.main-menu-items li a {
+  transition: 0.5s;
+}
+.active {
+  color: #ffffff;
+}
+.rest:hover {
+  color: #f785c3;
+  cursor: pointer;
+}
+.get-in-touch:hover {
+  background: #000000;
+  transition: 0.5s;
+}
+
+.main-menu-items li:nth-of-type(1) {
+  width: 106px;
+  height: 53px;
+  border-radius: 6px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.main-menu-items li:nth-of-type(2) {
+  margin-right: 40px;
+}
+.main-menu-items li:nth-of-type(1):hover {
+  background: #f785c3;
+  color: #000000;
+  cursor: pointer;
+}
+
+.get-in-touch {
+  padding: 30px 44px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Sporting Grotesque";
+  background-image: linear-gradient(
+    -90deg,
+    #f598f8 0%,
+    #f783bd 86%,
+    #f783bd 100%
+  );
+}
+.bottom-text {
+  width: 100%;
+  max-width: 698px;
+  position: absolute;
+  bottom: 0;
+  left: 39.7%;
+}
+.bottom-text u {
+  color: #f783bd;
+}
+
+.support-people {
+  text-align: left;
+  font-size: 83px;
+}
+
+.support-people::before {
+  content: "It Should";
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #000000;
+  font-family: "Aspekta";
+  position: absolute;
+  left: -64px;
+  transform: rotate(270deg);
+  top: 148px;
+  left: -63px;
+}
+.inspire-them {
+  font-size: 158px;
+  line-height: 146px;
+  text-transform: uppercase;
+  color: #f85540;
+  font-weight: 700;
+  font-family: "Sporting Grotesque";
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 13px;
+  z-index: 3333;
+  position: relative;
+  filter: drop-shadow(2.939px -4.045px 0px #000000);
+}
+.corporate-wellness {
+  font-family: "Aspekta";
+  font-size: 25px;
+  margin: -19px 0;
+  padding: 0;
+  text-transform: uppercase;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 0;
+}
+.bold-text {
+  font-weight: 700;
+}
+.inner-main {
+  margin-left: 45px;
+  position: relative;
+  margin-top: 125px;
+}
+.inspire {
+  font-size: 158px;
+  line-height: 146px;
+  text-transform: uppercase;
+  color: #f85540;
+  font-weight: 700;
+  font-family: "Sporting Grotesque";
+  margin-left: 153px;
+}
+.inspire::after {
+  content: "";
+  background-image: url(../images/boyshadow.png);
+  height: 677px;
+  background-size: 533px 677px;
+  width: 533px;
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 62px;
+  top: -120px;
+}
+
+/* Second Section */
+.inspire-connect {
+  background-image: url("../images/mobile-pic.png");
+  background-repeat: no-repeat;
+  height: 675px;
+  margin-top: 129px !important;
+}
+.inspire-text {
+  width: 100%;
+  max-width: 45%;
+  margin-left: auto;
+  padding-top: 90px;
+  position: relative;
+}
+
+.better {
+  color: #f783bd;
+  text-decoration-thickness: from-font;
+  background: linear-gradient(to bottom, #f783bd 2px, transparent 2px);
+  background-position: 0 100%;
+  background-size: 98% 7px;
+  background-repeat: no-repeat;
+}
+.bottom-text h3 {
+  position: relative;
+}
+.empower {
+  color: #f783bd;
+  text-decoration-thickness: from-font;
+  background: linear-gradient(to bottom, #f783bd 2px, transparent 3px);
+  background-position: 0 100%;
+  background-size: 98% 11px;
+  background-repeat: no-repeat;
+}
+.inspire-span {
+  color: #f783bd;
+  text-decoration-thickness: from-font;
+  background: linear-gradient(to bottom, #f783bd 2px, transparent 3px);
+  background-position: 0 100%;
+  background-size: 98% 11px;
+  background-repeat: no-repeat;
+}
+
+.bottom-text h3 span {
+  color: #f783bd;
+}
+
+/* Third Section */
+.people-section {
+  height: 450px;
+  background-image: url(../images/people.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 112px !important;
+}
+.members {
+  color: #f783bd;
+  text-decoration-thickness: from-font;
+  background: linear-gradient(to bottom, #f783bd 2px, transparent 2px);
+  background-position: 0 100%;
+  background-size: 100% 7px;
+  background-repeat: no-repeat;
+}
+
+.content-text {
+  color: #1c171a;
+  position: absolute;
+  bottom: -110px;
+  margin: 0 58px;
+  padding: 25px;
+  background-color: #ffffff;
+}
+
+/* fourth section */
+.contact-us {
+  margin-top: 175px !important;
+  /* display: flex; */
+  text-align: center;
+  display: flex;
+  transition: 0.5s;
+}
+
+.contact-us-btn {
+  padding: 35px 40px;
+  display: inline-block;
+  margin-top: 59px;
+  border-bottom-left-radius: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  border: 0;
+  z-index: 1;
+  position: relative;
+  font-family: "Sporting Grotesque";
+  background-image: linear-gradient(235deg, #f598f8 0%, #f783bd 100%);
+}
+.contact-us-btn:hover {
+  background: #000000;
+}
+
+.main-contact {
+  position: relative;
+}
+.main-contact-us::after {
+  content: "";
+  background-image: url("../images/mic-girl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 595px;
+  width: 762px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+/* hitting-and-measuring */
+.hitting-and-measuring {
+  background-color: #e5e0e4;
+  margin-top: 390px;
+  position: relative;
+}
+.measuring-tiles {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+  /* flex-wrap: wrap; */
+}
+.content-measure {
+  text-align: -webkit-right;
+  padding-top: 150px;
+}
+.first-para {
+  padding-bottom: 18px;
+}
+
+/* .sub-hitting::after {
+  content: "";
+  background-image: url("../images/shape-top.png");
+  background-size: cover;
+  height: 659px;
+  width: 100%;
+  top: -44%;
+  left: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+} */
+/* .content-measure::before {
+  content: "";
+  background-image: url(../images/phone-tiles.png);
+  background-size: cover;
+  height: 575px;
+  width: 804px;
+  top: -53px;
+  left: 251px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+} */
+.content-measure {
+  background-image: url(/images/phone-tiles.png);
+  background-repeat: no-repeat;
+  background-position: left left;
+  background-size: 703px 600px;
+}
+.hitting-and-measuring::before {
+  content: "";
+  background-image: url(../images/hand-wire.png);
+  /* background-size: cover; */
+  height: 100%;
+  /* left: 0; */
+  top: 269px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.tile {
+  border: 2px solid #1c171a;
+  text-align: center;
+  border-left: 0;
+  padding: 120px 0;
+}
+.text-measuring {
+  width: 100%;
+  max-width: 712px;
+  text-align: right;
+  z-index: 1;
+  position: relative;
+  padding-top: 254px;
+}
+.text-measuring h3 {
+  margin-top: 220px;
+}
+.tile {
+  width: 380px;
+}
+/* newsection */
+.lyc-works {
+  margin-top: 130px;
+}
+.lyc-text {
+  text-align: center;
+}
+.lyc-text .here-how-text {
+  color: #f783bd;
+  text-decoration-thickness: from-font;
+  background: linear-gradient(to bottom, #f783bd 2px, transparent 2px);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+}
+.lyc-images {
+  margin-top: 55px;
+  position: relative;
+}
+.lyc-images img {
+  height: auto;
+}
+.play-button {
+  position: absolute;
+  margin: auto;
+  top: 43%;
+  left: 50%;
+}
+
+/* second-last-section */
+
+.main-engage-people::after {
+  content: "";
+  background-image: url("../images/ellipse-img.png");
+  height: 600px;
+  width: 738px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.main-engage {
+  margin-top: 140px;
+  position: relative;
+}
+.engage {
+  display: flex;
+  justify-content: end;
+}
+
+.engage-with-lyc {
+  text-align: center;
+  width: 100%;
+  max-width: 773px;
+}
+
+/* footer-css */
+footer {
+  background-color: #e5e0e4;
+  margin-top: 250px;
+  position: relative;
+}
+.sub-footer::after {
+  content: "";
+  background-image: url("../images/shape-footer-top.png");
+  background-size: cover;
+  height: 480px;
+  width: 100%;
+  bottom: 332px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 333px;
+}

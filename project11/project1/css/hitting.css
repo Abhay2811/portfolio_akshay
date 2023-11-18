@@ -1,0 +1,76 @@
+.hitting-and-measuring {
+  background-color: #e5e0e4;
+  margin-top: 390px;
+  position: relative;
+}
+.measuring-tiles {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+  /* flex-wrap: wrap; */
+}
+.content-measure {
+  text-align: -webkit-right;
+  padding-top: 150px;
+}
+.first-para {
+  padding-bottom: 18px;
+}
+
+.sub-hitting::after {
+  content: "";
+  background-image: url("../images/shape-top.png");
+  background-size: cover;
+  height: 659px;
+  width: 100%;
+  top: -44%;
+  left: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.content-measure::before {
+  content: "";
+  background-image: url(../images/phone-tiles.png);
+  background-size: cover;
+  height: 575px;
+  width: 804px;
+  top: 60px;
+  left: 251px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+}
+.measuring-tiles::before {
+  content: "";
+  background-image: url(../images/hand-wire.png);
+  background-size: cover;
+  height: 849px;
+  bottom: 413px;
+  left: -44px;
+  top: 80px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  width: 1416px;
+}
+.tile {
+  border: 2px solid #1c171a;
+  text-align: center;
+  border-left: 0;
+  padding: 120px 0;
+}
+.text-measuring {
+  width: 100%;
+  max-width: 712px;
+  text-align: right;
+  z-index: 1;
+  position: relative;
+  padding-top: 254px;
+}
+.text-measuring h3 {
+  padding: 60px 0;
+  margin-top: 50px;
+}
+.tile {
+  width: 380px;
+}
